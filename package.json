@@ -1,0 +1,14 @@
+{
+  "name": "contact-package",
+  "version": "1.0.0",
+  "description": "serveless package for the contact form",
+  "main": "index.js",
+  "repository": "https://github.com/oneafricaproject/oneafricaproject.github.io",
+  "author": "John Claude <unjohnclaude@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.266.1",
+    "serveless": "^0.0.2",
+    "serverless": "^1.27.3"
+  }
+}
