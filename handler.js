@@ -78,7 +78,7 @@ module.exports.staticSiteMailer = (event, context, callback) => {
       if (response.target.status === 200) {
         // The form submission was successful
         form.reset();
-        formResponse.innerHTML = 'Thanks for the message. I’ll be in touch shortly.';
+        formResponse.innerHTML = 'Thanks for the message. We will be in touch shortly.';
       } else {
         // The form submission failed
         formResponse.innerHTML = 'Something went wrong';
