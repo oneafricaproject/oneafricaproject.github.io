@@ -90,7 +90,7 @@
 						<div class="col-xs-2">
 							<div id="fh5co-logo">
 								<a href="index.html">
-									<img class="logo-image" src="images/logo2.png" />
+									<img class="logo-image" src="images/logo2.png" alt="One Africa Project Logo" />
 								</a>
 							</div>
 						</div>
@@ -135,7 +135,7 @@
 
 		<div id="fh5co-contact">
 			<div class="container">
-				<div class="row">
+				<div class="row" style="padding-top: 50px;">
 					<div class="col-md-5 col-md-push-1 animate-box">
 
 						<div class="fh5co-contact-info">
@@ -148,7 +148,7 @@
 						</div>
 
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6">
 						<h3>Get In Touch</h3>
 						<form action="https://rbz5nahiqh.execute-api.us-east-1.amazonaws.com/dev/static-site-mailer" method="POST">
 							<div class="row form-group">
@@ -193,27 +193,37 @@
 			</div>
 		</div>
 
-		<!--Newsletter Section-->
-		<section>
-			<div class="row newsletter">
-				<div class="col-md-6 halfbg">
-					<div class="center" style="width: 99%; margin: auto; height: 90%;">
-						<h2 class="h2-white-shadow">Stay Informed with our newsletter</h2>
-					</div>
+<!--Newsletter Section-->
+<section>
+		<div class="row newsletter">
+			<div class="col-md-6 halfbg">
+				<div class="center" style="width: 99%; margin: auto; height: 90%;">
+					<h2 class="h2-white-shadow">Stay Informed with our newsletter</h2>
 				</div>
-				<div class="col-md-6 halfbg-black">
-					<form class="newsletter-form" action="">
-						<div class="form-group">
-							<input id="nletteremail" type="text" placeholder="email address" class="form-control">
-							<input type="submit" value="Subscribe" class="btn btn-join">
+			</div>
+			<div class="col-md-6 halfbg-black">
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+					<form action="https://oneafricaproject.us18.list-manage.com/subscribe/post?u=4c6993c998e371af0d9079093&amp;id=f89121a4c7"
+					 method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate pad" target="_blank"
+					 novalidate>
+						<div id="mc_embed_signup_scroll">
+							<input type="email" value="" name="EMAIL" class="email nletteremail" id="mce-EMAIL" placeholder="email address" required>
+								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-join">
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true">
+								<input type="text" name="b_4c6993c998e371af0d9079093_f89121a4c7" tabindex="-1" value="">
+							</div>
 						</div>
 					</form>
 				</div>
-			</div>
-		</section>
-		<!--Map-->
 
-		<footer id="fh5co-footer" role="contentinfo" style="background-image: url(images/img_bg_4.jpg);">
+				<!--End mc_embed_signup-->
+			</div>
+		</div>
+	</section>
+
+		<footer id="fh5co-footer" role="contentinfo">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row row-pb-md" id="footer-top">
@@ -237,17 +247,14 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+					<div class="col-md-3 col-sm-6 col-xs-6 col-md-push-1 fh5co-widget">
 						<h3 class="footer-title">Contact Us</h3>
-						<a href="mailto:enquiries@oneafricaproject.org"> Email: enquiries@oneafrica.org</a>
+						<a href="mailto:enquiries@oneafricaproject.org">enquiries@oneafrica.org</a>
 					</div>
 
 					<div class="col-md-3 col-sm-6 col-xs-6 col-md-push-1 fh5co-widget">
 						<h3 class="footer-title">NPO Registration Number</h3>
 						<h4>206-567</h4>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-md-push-1 fh5co-widget">
-						<img src="images/logo.jpg" height="100px" alt="One Africa">
 					</div>
 				</div>
 
